@@ -1,0 +1,71 @@
+<!-- <link rel="stylesheet" href="grid.css"> -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    object-fit: contain;
+}
+
+@media screen and (min-width:600px) {
+    body{
+        height: 80%;
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        grid-template-rows: 2fr 5fr 3fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+        "a b"
+        "c b"
+            "c d"; 
+        }
+    .b{
+        background-color: green;
+        min-height: 50%;
+        grid-area: b;
+    }
+    .a{
+        grid-area: a;
+    }
+    .c{
+        grid-area: c;
+        /* overflow-y: hidden; */
+    }
+    img{
+        height: 100%;
+    }
+    .d{
+        grid-area: d;
+    }
+    body > div{
+        border: 2px solid red;
+    }
+}
+</style>
+<body>
+
+    <div class="a">
+        <div>sales:6985</div>
+        <div>los:2544</div>
+    </div>
+
+    <div class="b">
+        Products
+        <ul>
+            <li>PaniPooooori</li>
+            <li>vada</li>
+            <li>dhanyalu</li>
+        </ul>
+    </div>
+
+    <div class="c">graph1
+        <img src="g1.png" alt="">
+    </div>
+    <div class="d">graph 2</div>
+    
+</body>

@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #5840BB;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+}
+
+.title{
+    height: 80px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.title a{
+    text-decoration: none;
+}
+
+.title p{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Roboto;
+}
+
+.bell{
+    width: 15%;
+}
+
+.col{
+    color: #5840BB;
+}
+
+.noti{
+    height: 56px;
+    width: 56px;
+    border: 1px none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 15px;   
+}
+
+.pfpimg{
+    width: 15%;
+}
+
+.pfp{
+    height: 56px;
+    width: 56px;
+    border: 1px none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 15px;
+}
+
+.sb{
+    display: grid;
+    position: relative;
+    height: 56px;
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.sb input{
+    height: 56px;
+    width: 280px;
+    border: 1px none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 15px;
+    padding-left: 10px;
+}
+
+.sb input:focus{
+    outline: none;
+}
+
+.srch{
+    position: absolute;
+    top: 14px;
+    right: 20px;
+    color: #5840BB;
+    font-size: 25px;
+}
+
+.icons{
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hw{
+    height: 40px;
+    width: 40px;
+    text-decoration: none;
+}
+
+.select{
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    color: #5840BB !important;
+    border-radius: 5px;
+    display: grid;
+    place-content: center;
+}
+
+.icons i{
+    color: white;
+    font-size: 20px;
+}
+
+.web{
+    display: none;
+}
